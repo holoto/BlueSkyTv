@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BlueSkyTv</string>
+    <string name="testvideourl">http://9890.vod.myqcloud.com/9890_4e292f9a3dd011e6b4078980237cc3d3.f20.mp4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

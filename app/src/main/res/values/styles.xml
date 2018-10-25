@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+<style name="tv_list_float" parent="@style/Theme.AppCompat.Light.Dialog">
+    <!-- 去黑边 -->
+    <item name="android:windowFrame">@null</item>
+    <!-- 设置是否可滑动 -->
+    <item name="android:windowIsFloating">true</item>
+    <!-- 设置是否透明 -->
+    <item name="android:windowIsTranslucent">false</item>
+    <!-- 无标题 -->
+    <item name="android:windowNoTitle">true</item>
+    <!-- 背景 -->
+    <item name="android:background">@null</item>
+    <!-- 窗口背景 -->
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <!-- 是否变暗 -->
+    <item name="android:backgroundDimEnabled">true</item>
+    <!-- 点击空白部分activity不消失 -->
+    <item name="android:windowCloseOnTouchOutside">true</item>
+    <!-- 无标题 有的手机设置这行代码-->
+    <item name="windowNoTitle">true</item>
+</style>
+    <style name="tv_l">
+
+    </style>
+</resources>

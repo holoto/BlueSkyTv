@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPlayerActivity">
+
+    <com.example.holoto.blueskytv.myplayer.myTvPlayer
+        android:id="@+id/activity_player_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Tv_List_menu_all2"
+        android:layout_width="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:layout_height="match_parent"
+        android:forceHasOverlappingRendering="true"
+        app:spanCount="10">
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/test_text1"
+        android:text="emptyddd"
+        android:textSize="23sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</android.support.constraint.ConstraintLayout>
